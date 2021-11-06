@@ -1,0 +1,13 @@
+.interna-historias {
+  background: url("../img/img-show2.jpg") no-repeat center;
+  height: 220px;
+ 
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 200px;
+  margin-left: -66px;
+}
