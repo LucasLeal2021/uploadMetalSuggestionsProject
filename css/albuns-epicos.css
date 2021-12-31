@@ -1,0 +1,115 @@
+h1 {
+  padding-top: 75px;
+}
+
+.container {
+  max-width: 1090px;
+}
+
+.interna-albuns {
+  background: url("../img/img-bandas.svg") no-repeat center;
+  height: 200px;
+}
+.logo {
+  margin-left: -60px;
+}
+.container-flex1 {
+  display: block;
+  max-width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  justify-content: center;
+}
+.item4 {
+  margin-top: -5px;
+}
+.paragrafo-1 {
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+  max-width: 1090px;
+}
+.paragrafo-1 p {
+  text-align: justify;
+}
+
+.item2 img {
+  margin: 10px;
+  width: 335px;
+  height: 350px;
+}
+
+.item3 img {
+  margin: 10px;
+  width: 335px;
+  height: 350px;
+}
+.item4 img {
+  margin: 5px 10px;
+  width: 335px;
+  height: 350px;
+}
+.position-1 p {
+  display: flex;
+  padding: 5px 10px;
+  width: 400px;
+  height: 350px;
+  text-align: justify;
+}
+.paragrafo-2 {
+  display: block;
+  margin: auto;
+  max-width: 1090px;
+  margin-top: 10px;
+}
+.paragrafo-2 p {
+  text-align: justify;
+}
+
+.position-2 p {
+  display: flex;
+  margin-top: -4px;
+  padding: 10px;
+  width: 400px;
+  height: 350px;
+  text-align: justify;
+}
+.position-3 p {
+  display: flex;
+  padding: 0 10px;
+  width: 400px;
+  height: 350px;
+  text-align: justify;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  background: #000;
+  color: #fff;
+}
+
+footer {
+  margin: -10px;
+}
+
+.nossa-meta {
+  margin-left: 5px;
+}
+
+.footer_redes {
+  margin-left: 240px;
+}
+
+.ultimo-paragrafo p {
+  padding-top: 8px;
+  text-align: justify;
+  width: 690px;
+  margin-left: 110px;
+}

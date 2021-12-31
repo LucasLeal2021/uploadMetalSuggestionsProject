@@ -50,14 +50,14 @@ img {
   flex-wrap: wrap;
   height: 60px;
   width: 200px;
-  margin-left: -55px;
+  margin-left: -60px;
 }
 
 /*menu*/
 
 .container {
-  max-width: 1050px;
-  margin: 0 auto;
+  max-width: 1090px;
+  margin: auto;
   padding: 15px 0;
   display: flex;
   flex-wrap: wrap;
@@ -95,7 +95,6 @@ h1 {
 .bg {
   background: url("../img/slipknotms3.jpg") no-repeat center;
   height: 220px;
-  width: 960;
 }
 h2 {
   color: black;
@@ -123,10 +122,7 @@ h2:after {
 
 .flex-bandas {
   display: flex;
-  flex: 1;
-  flex-wrap: wrap;
   justify-content: center;
-  padding-top: 5px;
 }
 .flex-bandas li h3 {
   text-align: center;
@@ -138,7 +134,7 @@ h2:after {
 .item-1 img {
   height: 300px;
   width: 350px;
-  padding: 5px;
+  margin: 10px;
 }
 
 .call {
@@ -148,7 +144,7 @@ h2:after {
 .call a {
   max-width: 105px;
   display: block;
-  margin: 20px auto;
+  margin: auto;
   border: 2px solid;
   color: #9b4747;
   text-transform: uppercase;
@@ -164,8 +160,8 @@ h2:after {
 
 .call p {
   display: block;
-  margin-top: -5px;
-  padding-inline: 585px;
+  padding-top: 10px;
+  text-align: center;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -173,7 +169,7 @@ h2:after {
 .item img {
   height: 300px;
   width: 350px;
-  padding: 5px;
+  margin: 0 10px;
 }
 
 .container-flex {
@@ -185,6 +181,7 @@ h2:after {
 }
 
 .container-flex li h3 {
+  margin: 10px 0;
   text-align: center;
   color: #ededed;
 }
@@ -216,9 +213,9 @@ h2:after {
 }
 
 .albuns {
-  background: url("../img/rectangle.jpg") no-repeat center;
-  margin-top: 10px;
-  height: 710px;
+  background: url("../img/retangulo.svg") no-repeat center;
+  margin-top: 20px;
+  height: 730px;
 }
 
 .albuns h2 {
@@ -240,11 +237,9 @@ h2:after {
   padding-top: 5px;
 }
 .agenda-img li img {
-  width: 340px;
+  width: 354px;
   height: 520px;
-
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 10px;
 }
 /*Footer*/
 .footer {
@@ -269,7 +264,7 @@ h2:after {
 .nossa-meta {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 151px;
+  padding-left: 124px;
   width: 450px;
   line-height: 25px;
   font-size: 14px;
@@ -294,7 +289,7 @@ h2:after {
 
 .footer_redes {
   display: block;
-  padding-left: 133px;
+  margin-left: 166px;
 }
 
 .footer_redes ul li {

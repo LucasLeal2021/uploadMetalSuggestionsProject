@@ -17,12 +17,7 @@ h3:after {
   flex-wrap: wrap;
   height: 60px;
   width: 200px;
-  margin-left: -55px;
-}
-
-.container {
-  display: flex;
-  max-width: 1050px;
+  margin-left: -50px;
 }
 
 .item1 {
@@ -48,16 +43,22 @@ h3 {
   padding-top: 10px;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  max-width: 1050px;
+}
 .container-1 {
   padding-top: 10px;
   margin-top: 10px;
   background: #acacac;
+  margin-left: 154px;
   display: flex;
   max-width: 1050px;
-  margin-left: 150px;
+  justify-self: center;
 }
 .item2 {
-  padding: 10px;
+  padding-inline: 10px;
 }
 .item2 p {
   text-align: justify;
@@ -83,4 +84,11 @@ cite {
   font-size: 14px;
   padding: 6px 3px 6px 3px;
   text-align: center;
+}
+
+.nossa-meta{
+  margin-left: 35px;
+}
+.footer_redes{
+  margin-right: 90px;
 }
