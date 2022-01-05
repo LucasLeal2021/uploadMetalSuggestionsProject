@@ -66,11 +66,12 @@ img {
 }
 .menu-nav ul {
   display: flex;
+  margin-right: -4px;
   flex-wrap: wrap;
 }
 .menu-nav a {
   color: white;
-  padding-inline: 15px;
+  padding-inline: 20px;
   padding-inline-end: 0px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
