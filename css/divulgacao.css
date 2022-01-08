@@ -11,6 +11,7 @@ h3:after {
   margin: 5px auto;
 }
 .container-form {
+  margin-top: -15px;
   display: flex;
 }
 .container-form img {
@@ -137,4 +138,7 @@ footer {
 .footer_redes {
   display: block;
   margin-left: 155px;
+}
+.footer_redes ul li {
+  margin-top: 0px;
 }

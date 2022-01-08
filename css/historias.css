@@ -86,9 +86,12 @@ cite {
   text-align: center;
 }
 
-.nossa-meta{
+.nossa-meta {
   margin-left: 35px;
 }
-.footer_redes{
+.footer_redes {
   margin-right: 90px;
+}
+.footer_redes ul li {
+  margin-top: 0px;
 }

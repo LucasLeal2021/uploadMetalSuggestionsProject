@@ -23,11 +23,11 @@ a {
 /*CONFIG GERAIS*/
 body {
   background: #dfdfdf;
-  font-family: "Russo One", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 }
 h3 {
@@ -294,6 +294,7 @@ h2:after {
 }
 
 .footer_redes ul li {
+  margin-top: 10px;
   display: inline-block;
 }
 .footer_redes ul li a {
