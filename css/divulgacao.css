@@ -2,6 +2,23 @@
   background: url("../img/slipknotms3.jpg") no-repeat center;
   height: 220px;
 }
+h3:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: #000;
+  margin: 5px auto;
+}
+.container-form {
+  display: flex;
+}
+.container-form img {
+  width: 720px;
+  height: 350;
+  margin-top: 55px;
+  margin-left: 75px;
+}
 .contato-form {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -52,13 +69,13 @@
   cursor: pointer;
 }
 .divulgacao h3 {
+  text-transform: uppercase;
+  color: black;
   margin-top: 20px;
-  margin-left: -790px;
 }
 .countdown {
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100vh;
 }
 .countdown-container {
@@ -67,14 +84,57 @@
   justify-content: center;
 }
 .text {
+  color: #ededed;
+  opacity: 80%;
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1;
-  margin: 1rem;
+  margin: 10px;
 }
 .countdown-el {
+  font-weight: bold;
   text-align: center;
 }
 .countdown-el span {
   font-size: 20px;
+  color: #ededed;
+  opacity: 80%;
+}
+.countdown h3 {
+  text-transform: uppercase;
+  color: #ededed;
+  opacity: 80%;
+}
+.background {
+  background: url("../img/background.svg") no-repeat center;
+}
+/*Footer*/
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  margin-top: 10px;
+  display: flex;
+  height: 120px;
+  background: #000;
+  color: #fff;
+}
+
+.nossa-meta p {
+  width: 400px;
+  text-align: justify;
+}
+
+.flex-contato {
+  width: 500px;
+  margin-top: -10px;
+  display: block;
+  font-size: 14px;
+}
+
+.footer_redes {
+  display: block;
+  margin-left: 155px;
 }

@@ -39,37 +39,42 @@
   <div class="divulgacao">
     <h3>Divulgue sua banda conosco</h3>
   </div>
-  <section class="contato-form">
-    <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
-      <label for="nome">Nome</label>
-      <input type="text" id="nome" name="nome" required>
-      <label for="email">E-mail</label>
-      <input type="email" id="email" name="email" required>
-      <label for="telefone">Telefone</label>
-      <input type="text" id="telefone" name="telefone">
-      <label for="mensagem">Mensagem</label>
-      <textarea id="mensagem" name="mensagem" required></textarea>
-      <button id="enviar" name="enviar" type="submit" class="btn-enviar">Enviar</button>
-    </form>
-  </section>
-  <section class="countdown">
-    <h3>Contagem regressiva para o Rock in Rio</h3>
-    <div class="countdown-container">
-      <div class="countdown-el days-c">
-        <p class="text" id="days">0</p>
-        <span>Dias</span>
-      </div>
-      <div class="countdown-el hours-c">
-        <p class="text" id="hours">0</p>
-        <span>Horas</span>
-      </div>
-      <div class="countdown-el mins-c">
-        <p class="text" id="mins">0</p>
-        <span>minutos</span>
-      </div>
-      <div class="countdown-el seconds-c">
-        <p class="text" id="seconds">0</p>
-        <span>Segundos</span>
+  <div class="container-form">
+    <section class="contato-form">
+      <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </section>
+    <img src="img/divulgacao.jpg" alt="divulgacao">
+  </div>
+  <section class="background">
+    <div class="countdown">
+      <h3>Contagem regressiva para o Rock in Rio 2022</h3>
+      <div class="countdown-container">
+        <div class="countdown-el days-c">
+          <p class="text" id="days">0</p>
+          <span>Dias</span>
+        </div>
+        <div class="countdown-el hours-c">
+          <p class="text" id="hours">0</p>
+          <span>Horas</span>
+        </div>
+        <div class="countdown-el mins-c">
+          <p class="text" id="mins">0</p>
+          <span>minutos</span>
+        </div>
+        <div class="countdown-el seconds-c">
+          <p class="text" id="seconds">0</p>
+          <span>Segundos</span>
+        </div>
       </div>
     </div>
   </section>
