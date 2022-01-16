@@ -101,7 +101,9 @@ p {
   background: #000;
   color: #fff;
 }
-
+.footer_redes {
+  margin-left: 250px;
+}
 footer {
   margin: -10px;
 }
@@ -110,31 +112,9 @@ footer {
   margin-left: 5px;
 }
 
-.footer_redes {
-  margin-left: 240px;
-}
-
 .ultimo-paragrafo p {
   padding-top: 8px;
   text-align: justify;
   width: 690px;
   margin-left: 110px;
-}
-@media (max-width: 1356px) {
-  .ultimo-paragrafo p {
-    margin-left: 90px;
-  }
-
-  .nossa-meta {
-    width: 500px;
-    margin-left: -15px;
-  }
-  .footer_redes {
-    margin-left: 255px;
-  }
-  .contato {
-    width: 450px;
-    line-height: 21px;
-    padding-left: 190px;
-  }
 }
